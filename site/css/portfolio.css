@@ -103,6 +103,21 @@ a.disabled{
 align-items: center;
 justify-content: center;
 }
+.button {
+  display: block;
+  padding: 3px 5px;
+  margin: 10px 0;
+  background-color: rgb(202, 153, 161);
+  color:white;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.button:hover {
+background-color: rgb(255, 214, 221)
+}
 
 @media screen and (max-width: 700px) {
   .navbar {
@@ -119,4 +134,19 @@ justify-content: center;
     padding: 0 10%;
   }
 
+}
+.button1 {
+  display: block;
+  padding: 3px 5px;
+  margin: 10px 0;
+  background-color: rgb(202, 153, 161);
+  color:white;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-align: center;
+  cursor: pointer;
+
+}
+.button2:hover {
+background-color: rgb(255, 214, 221)
 }
