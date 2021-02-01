@@ -35,3 +35,14 @@ button1.addEventListener('click', () => {
         listToModify[i].innerHTML = tech[i];
     }
 })
+
+const newElementField = document.querySelector('.newElement');
+const skills = document.querySelector('.skill ul');
+const button2 = document.querySelector('.button2');
+button2.addEventListener('click', () => {
+    const newElement = document.createElement('li');
+    newElement.innerHTML = newElementField.value;
+    skills.append(newElement);
+})
+
+
